@@ -24,6 +24,7 @@ public class ModCreativeModTabs {
 
                         output.accept(ModBlocks.WATER_DUST_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_WATER_DUST_ORE.get());
+                        output.accept(ModBlocks.WATER_GEM_BLOCK.get());
 
                         output.accept(Items.DIAMOND_AXE);
                     })
