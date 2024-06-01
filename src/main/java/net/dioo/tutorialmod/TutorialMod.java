@@ -1,6 +1,7 @@
 package net.dioo.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.dioo.tutorialmod.block.ModBlocks;
 import net.dioo.tutorialmod.item.ModCreativeModTabs;
 import net.dioo.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -31,6 +32,7 @@ public class TutorialMod
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         
         modEventBus.addListener(this::commonSetup);
 

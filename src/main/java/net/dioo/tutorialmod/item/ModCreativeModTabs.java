@@ -1,6 +1,7 @@
 package net.dioo.tutorialmod.item;
 
 import net.dioo.tutorialmod.TutorialMod;
+import net.dioo.tutorialmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,6 +21,9 @@ public class ModCreativeModTabs {
                     .displayItems((itemDisplayParameters, output) -> { // bote os itens na nova tab do criativo aqui
                         output.accept(ModItems.WATER_GEM.get());
                         output.accept(ModItems.WATER_DUST.get());
+
+                        output.accept(ModBlocks.WATER_DUST_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_WATER_DUST_ORE.get());
 
                         output.accept(Items.DIAMOND_AXE);
                     })
