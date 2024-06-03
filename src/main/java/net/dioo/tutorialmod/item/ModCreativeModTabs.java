@@ -22,9 +22,13 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.WATER_GEM.get());
                         output.accept(ModItems.WATER_DUST.get());
 
+                        output.accept(ModItems.METAL_DETECTOR.get());
+
                         output.accept(ModBlocks.WATER_DUST_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_WATER_DUST_ORE.get());
                         output.accept(ModBlocks.WATER_GEM_BLOCK.get());
+
+                        output.accept(ModBlocks.SOUND_BLOCK.get());
                         // output.accept(Items.DIAMOND_AXE); // para colocar itens normais do minecraft
                     })
                     .build());

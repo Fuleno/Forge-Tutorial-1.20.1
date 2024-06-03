@@ -2,9 +2,12 @@
   "item.tutorialmod.water_gem": "Water Gem",
   "item.tutorialmod.water_dust": "Water Dust",
 
+  "item.tutorialmod.metal_detector": "Metal Detector",
+
   "block.tutorialmod.water_dust_ore": "Water Dust Ore",
   "block.tutorialmod.deepslate_water_dust_ore": "Deepslate Water Dust Ore",
   "block.tutorialmod.water_gem_block": "Water Gem Block",
+  "block.tutorialmod.sound_block": "Sound Block",
 
   "creativetab.tutorial_tab": "Tutorial Tab"
 }
